@@ -1,0 +1,65 @@
+html {
+    position: relative;
+}
+
+.navbar-brand {
+    padding: 20px;
+    margin: 0px;
+    width: 80%;
+}
+.background {
+    height: 800px;
+    width: 100%;
+    background-image: url("../assets/img/dog-background.jpeg");
+    position: absolute;
+}
+.container-fluid {
+    background-color: #fff;
+    height: 1000px;
+    padding: 20px;
+    max-width: 1000px;
+}
+.container {
+    position: relative;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+.figure{
+    overflow: auto;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+.figure-caption{
+    background-color: #449995;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+.img-fluid {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+}
+.image-caption{
+    font-size: 18px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container-footer{
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    padding: 20px;
+    bottom: 20;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #fff;
+}
