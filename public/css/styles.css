@@ -5,16 +5,12 @@ html {
 .navbar-brand {
     padding: 20px;
     margin: 0px;
-    width: 80%;
+    width: 85%;
 }
 
 .container {
     position: relative;
-}
-
-h2 {
-    padding: 20px;
-}
+} 
 
 .figure{
     overflow: auto;
@@ -28,18 +24,25 @@ h2 {
     width: 100%;
     bottom: 5%;
 }
+
 .img-fluid {
     position: absolute;
     height: 96%;
     width: 100%;
 }
+
 .image-caption{
     font-size: 18px;
-    color: white;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.container-footer{
+
+.img-thumbnail {
+    max-width: 200px; 
+    max-height: 200px;
+} 
+
+footer{
     position: absolute;
     width: 100%;
     height: 70px;
@@ -47,8 +50,4 @@ h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     float: bottom;
-}
-
-p {
-    color: #fff;
 }
